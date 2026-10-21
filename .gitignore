@@ -1,0 +1,14 @@
+.azure/
+.venv/
+__pycache__/
+*.pyc
+local.settings.json
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+.python_packages/
+.vscode/
+measurements/*.csv
+
+*.log

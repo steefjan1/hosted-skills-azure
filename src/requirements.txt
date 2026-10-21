@@ -1,0 +1,6 @@
+# Hosted skills runtime. The [monitor] extra exports agent.run and gen_ai spans
+# to Application Insights without any telemetry code in this app.
+azurefunctions-agents-runtime[monitor]==0.1.0b16
+
+# Used by the custom tools in tools/ (Blob is already a runtime dependency).
+azure-data-tables>=12.5,<13

@@ -1,0 +1,13 @@
+# App-wide defaults. Every *.agent.md inherits these; front matter overrides them.
+# Resolution order: agent front matter -> agents.config.yaml -> app settings.
+
+model: $FOUNDRY_MODEL
+
+# Background skills (queue, timer) set 1800 in their own front matter.
+timeout: 900
+
+# No sandboxed Python here: the claims tools are deterministic Python in tools/, so an
+# Azure Container Apps session pool would only add cost and a role assignment.
+# Note: at app level `system_tools.dynamic_sessions_code_interpreter` must be a dict
+# (endpoint, client_id). The `false` form the reference shows is per-agent front matter
+# only. The way to have no sandbox app-wide is to leave the key out, as here.

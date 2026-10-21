@@ -1,0 +1,19 @@
+{
+  "POL-1001": [
+    { "claim_id": "CLM-2024-0117", "date": "2024-11-03", "coverage": "glass", "amount": 420, "outcome": "paid" }
+  ],
+  "POL-1002": [],
+  "POL-1003": [
+    { "claim_id": "CLM-2025-0310", "date": "2025-02-14", "coverage": "preventive", "amount": 95, "outcome": "paid" },
+    { "claim_id": "CLM-2025-0981", "date": "2025-09-02", "coverage": "restorative", "amount": 640, "outcome": "paid" }
+  ],
+  "POL-1004": [
+    { "claim_id": "CLM-2023-0450", "date": "2023-04-22", "coverage": "collision", "amount": 3100, "outcome": "paid" },
+    { "claim_id": "CLM-2024-0212", "date": "2024-02-09", "coverage": "collision", "amount": 2750, "outcome": "paid" },
+    { "claim_id": "CLM-2025-0033", "date": "2025-01-18", "coverage": "collision", "amount": 4900, "outcome": "rejected" }
+  ],
+  "POL-1005": [
+    { "claim_id": "CLM-2022-0801", "date": "2022-08-30", "coverage": "roadside", "amount": 180, "outcome": "paid" },
+    { "claim_id": "CLM-2026-0140", "date": "2026-03-12", "coverage": "theft", "amount": 38000, "outcome": "paid" }
+  ]
+}

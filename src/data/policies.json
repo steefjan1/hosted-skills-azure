@@ -1,0 +1,68 @@
+{
+  "POL-1001": {
+    "policy_number": "POL-1001",
+    "holder": "A. de Vries",
+    "product": "car",
+    "status": "active",
+    "start_date": "2024-03-01",
+    "deductible": 300,
+    "coverages": {
+      "liability": { "limit": 2500000, "description": "Third-party liability (WA)" },
+      "collision": { "limit": 25000, "description": "Damage to the insured vehicle in a collision" },
+      "glass": { "limit": 1500, "description": "Windscreen and window glass replacement" },
+      "theft": { "limit": 25000, "description": "Theft of the insured vehicle" }
+    }
+  },
+  "POL-1002": {
+    "policy_number": "POL-1002",
+    "holder": "B. Jansen",
+    "product": "car",
+    "status": "active",
+    "start_date": "2026-09-20",
+    "deductible": 500,
+    "coverages": {
+      "liability": { "limit": 2500000, "description": "Third-party liability (WA)" }
+    }
+  },
+  "POL-1003": {
+    "policy_number": "POL-1003",
+    "holder": "C. Bakker",
+    "product": "dental",
+    "status": "active",
+    "start_date": "2023-01-01",
+    "deductible": 0,
+    "coverages": {
+      "preventive": { "limit": 250, "description": "Check-ups and cleaning, per calendar year" },
+      "restorative": { "limit": 1000, "description": "Fillings, crowns and root canals, 75% reimbursed" },
+      "orthodontics": { "limit": 0, "description": "Not covered for adults" }
+    }
+  },
+  "POL-1004": {
+    "policy_number": "POL-1004",
+    "holder": "D. Visser",
+    "product": "car",
+    "status": "lapsed",
+    "start_date": "2022-06-15",
+    "end_date": "2026-05-31",
+    "deductible": 300,
+    "coverages": {
+      "liability": { "limit": 2500000, "description": "Third-party liability (WA)" },
+      "collision": { "limit": 15000, "description": "Damage to the insured vehicle in a collision" }
+    }
+  },
+  "POL-1005": {
+    "policy_number": "POL-1005",
+    "holder": "E. Smit",
+    "product": "car",
+    "status": "active",
+    "start_date": "2021-11-01",
+    "deductible": 150,
+    "coverages": {
+      "liability": { "limit": 2500000, "description": "Third-party liability (WA)" },
+      "collision": { "limit": 40000, "description": "Damage to the insured vehicle in a collision" },
+      "glass": { "limit": 2000, "description": "Windscreen and window glass replacement" },
+      "theft": { "limit": 40000, "description": "Theft of the insured vehicle" },
+      "roadside": { "limit": 500, "description": "Roadside assistance and towing" }
+    }
+  }
+}
