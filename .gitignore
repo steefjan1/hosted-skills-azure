@@ -12,3 +12,6 @@ __tablestorage__/
 measurements/*.csv
 
 *.log
+
+docs/posts/
+docs/*.docx
